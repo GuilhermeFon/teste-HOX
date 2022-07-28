@@ -1,51 +1,187 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat';
 }
 
 :root {
-  font-family: 'Montserrat';
   font-size: 30px;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .App-header {
   background-image: url('assets/Background.png');
-  background-size:  cover;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  padding-top: 45px;
 }
 
 .Container_Nav {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 60px;
+  height: 27px;
+  flex-wrap: wrap;
+  padding: 45px;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 .Logo {
-  margin-left: 163px;
+  display: flex;
+  margin-top: 1px;
   width: 158px;
   height: 16px;
 }
 
 .Container_Menu {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  padding-left: 8px;
+  margin-left: 111px;
   font-size: 0.6rem;
-}
-
-.Container_Menu p {
-  margin-top: 1px;
-  margin-left: 103px;
+  width: 700px;
+  justify-content: space-between;
+  font-weight: 400;
 }
 
 .Container_Card {
-  height: 46.21%;
-  width: 46.88%;
-  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 675px;
+  height: 366px;
   background: linear-gradient(253.62deg, #048A81 0%, #49A462 100%);
+  border-radius: 6px;
+  margin-top: 140px;
+}
 
+.Title {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+  max-width: 446.34px;
+  margin-top: 49px;
+  margin-left: 162.8px;
+  margin-right: 65.85px;
+}
+
+.Txt {
+  font-size: 0.6rem;
+  font-weight: 400;
+  max-width: 347.56px;
+  margin-left: 162.8px;
+  margin-right: 164.63px;
+}
+
+.Container_Arrow {
+  display: flex;
+  flex-direction: flex-end;
+  width: 100%;
+}
+
+.Arrow {
+  margin-left: auto;
+  width: 36px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+@media (max-width: 1131px) {
+
+  .Container_Menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 0.6rem;
+    margin-left: 55px;
+    width: 500px;
+  }
+
+  .Container_Arrow {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 875px) {
+  .Container_Nav {
+    flex-direction: column;
+    height: 223px;
+    padding-left: 0px;
+    align-items: center;
+  }
+
+  .Container_Menu {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 158px;
+  }
+
+  .Container_Menu p {
+    margin-bottom: 15px;
+  }
+
+  .Container_Card {
+    margin-top: 125px;
+  }
+}
+
+@media (max-width: 837px) {
+  .Container_Card {
+    margin-top: 125px;
+  }
+}
+
+@media (max-width: 700px) {
+
+
+  .Title {
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .Txt {
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 529px) {
+  .Container_Card {
+    height: 550px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 405px) {
+  .Title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 294px) {
+  .Container_Card {
+    min-width: 250px;
+    height: 600px;
+  }
+}
+
+.Title_Team {
+  background-image: linear-gradient(269.78deg, #048A81 0.11%, #55A95C 99.81%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.Team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
