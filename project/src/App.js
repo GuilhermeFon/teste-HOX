@@ -30,23 +30,23 @@ function App() {
       <body>
         <h1 className='Title_Team'>MEET OUR TEAM</h1>
         <section className='Team'>
-          <div className='People01'>
+          <div className='People'>
             <img src={FotoOne} />
-            <p></p>
-            <p></p>
-            <button>See Profile</button>
+            <p  className='p1'>Jack Gosling</p>
+            <p  className='p2'>Senior Designer</p>
+            <button className='btn_profile'>See Profile</button>
           </div>
-          <div className='People02'>
+          <div className='People'>
             <img src={FotoTwo} />
-            <p></p>
-            <p></p>
-            <button>See Profile</button>
+            <p  className='p1'>Thomas Carlson</p>
+            <p  className='p2'>Interior Expert</p>
+            <button className='btn_profile'>See Profile</button>
           </div>
-          <div className='People03'>
+          <div className='People'>
             <img src={FotoThree} />
-            <p></p>
-            <p></p>
-            <button>See Profile</button>
+            <p className='p1'>Sophia Dellphine</p>
+            <p  className='p2'>Midia Expert</p>
+            <button className='btn_profile'>See Profile</button>
           </div>
         </section>
       </body>

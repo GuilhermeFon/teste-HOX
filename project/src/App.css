@@ -171,17 +171,60 @@
 }
 
 .Title_Team {
-  background-image: linear-gradient(269.78deg, #048A81 0.11%, #55A95C 99.81%);
+  background: linear-gradient(269.78deg, #048A81 0.11%, #55A95C 99.81%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: black;
   text-align: center;
   margin-top: 110px;
+  margin-bottom: 50px;
 }
 
 .Team {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.p1 {
+  color: rgba(64, 64, 64, 1);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.p2 {
+  color: rgba(64, 64, 64, 1);
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn_profile{
+  background: linear-gradient(269.78deg, #048A81 0.11%, #55A95C 99.81%);
+  width: 148px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.People{
+  text-align: center;
+}
+
+@media (max-width: 1370px) {
+
+  .Team {
+    flex-direction: column;
+  }  
+
+  .btn_profile{
+    margin-bottom: 25px;
+  }
 }
