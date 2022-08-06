@@ -547,6 +547,7 @@
   border-radius: 6px;
   border: none;
   color: #048A81;
+  background: #fff;
   cursor: pointer;
 }
 
@@ -618,7 +619,6 @@
   .Container_Form button {
     width: 80%;
     margin: 0 auto;
-    color: #fff !important;
   }
 
 }
