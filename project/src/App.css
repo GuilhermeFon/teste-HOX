@@ -9,7 +9,7 @@
   color: #fff;
   margin: 0;
   padding: 0;
-  --swiper-theme-color: #404040
+  --swiper-theme-color: #404040 !important;
 }
 
 .App-header {
@@ -123,16 +123,17 @@
     flex-direction: column;
     height: 223px;
     padding-left: 0px;
+    padding-right: 0px;
     align-items: center;
   }
 
   .Container_Menu {
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-left: 0;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .Container_Menu p {
