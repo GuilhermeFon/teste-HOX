@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GuilhermeFon/teste-Hox/static/css/main.39deeb7d.css",
+    "main.js": "/GuilhermeFon/teste-Hox/static/js/main.0377673a.js",
+    "static/js/787.ec704a7a.chunk.js": "/GuilhermeFon/teste-Hox/static/js/787.ec704a7a.chunk.js",
+    "static/media/Background.png": "/GuilhermeFon/teste-Hox/static/media/Background.d0a644a4b2cf38b9f4d3.png",
+    "static/media/Carousel03.png": "/GuilhermeFon/teste-Hox/static/media/Carousel03.238a4bd081ec9399749c.png",
+    "static/media/Carousel01.png": "/GuilhermeFon/teste-Hox/static/media/Carousel01.fbd0dc39bb7d9a50eaed.png",
+    "static/media/Carousel02.png": "/GuilhermeFon/teste-Hox/static/media/Carousel02.3a1a588453cab054dc3e.png",
+    "static/media/People02.png": "/GuilhermeFon/teste-Hox/static/media/People02.8ed70cedb00c9de144fe.png",
+    "static/media/People01.png": "/GuilhermeFon/teste-Hox/static/media/People01.6acf2e620b9a4b9214cf.png",
+    "static/media/People03.png": "/GuilhermeFon/teste-Hox/static/media/People03.ec531e42aea4f459569f.png",
+    "index.html": "/GuilhermeFon/teste-Hox/index.html",
+    "main.39deeb7d.css.map": "/GuilhermeFon/teste-Hox/static/css/main.39deeb7d.css.map",
+    "main.0377673a.js.map": "/GuilhermeFon/teste-Hox/static/js/main.0377673a.js.map",
+    "787.ec704a7a.chunk.js.map": "/GuilhermeFon/teste-Hox/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39deeb7d.css",
+    "static/js/main.0377673a.js"
+  ]
+}
