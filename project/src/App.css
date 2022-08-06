@@ -618,6 +618,7 @@
   .Container_Form button {
     width: 80%;
     margin: 0 auto;
+    color: #fff !important;
   }
 
 }
