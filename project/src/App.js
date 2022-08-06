@@ -1,17 +1,15 @@
 import React from 'react';
-import ReactSwipe from 'react-swipe';
-// import Carousel from './assets/Carousel'
-import Logo from './assets/Logo.png'
-import Arrow from './assets/Arrow.png'
-import FotoOne from './assets/People01.png'
-import FotoTwo from './assets/People02.png'
-import FotoThree from './assets/People03.png'
+import Swiper from './assets/Swiper';
+import Logo from './assets/images/Logo.png'
+import Arrow from './assets/images/Arrow.png'
+import FotoOne from './assets/images/People01.png'
+import FotoTwo from './assets/images/People02.png'
+import FotoThree from './assets/images/People03.png'
+
 import './App.css';
 
-
 function App() {
-  
-  let reactSwipeEl;
+
 
   return (
     <>
@@ -60,21 +58,25 @@ function App() {
             <h2>TOPICS</h2>
             <a>See all topics</a>
           </div>
-          <div className='Container_Carousel'>
-            <div>
-              <ReactSwipe
-                className="carousel"
-                swipeOptions={{ continuous: false }}
-                ref={el => (reactSwipeEl = el)}>
-                <div>PANE 1</div>
-                <div>PANE 2</div>
-                <div>PANE 3</div>
-              </ReactSwipe>
-              <button onClick={() => reactSwipeEl.next()}>Next</button>
-              <button onClick={() => reactSwipeEl.prev()}>Previous</button>
-            </div>
+          <div>
+            <Swiper />
           </div>
         </section>
+      </section>
+      <section className='Container_Four'>
+        <div className='Container_txt_Four'>
+          <h1>CONTACT OUR TEAM FOR MORE INFORMATION ABOUT INTERIOR DESIGN.</h1>
+          <div className="Container_Form">
+              <input type="text" placeholder='Your name' id='name' autoComplete='off'/>
+              <input type="email" placeholder='Your best Email' id='email' autoComplete='off'/>
+              <textarea name="message_txt" id="message" cols="30" rows="10" placeholder='How Can We help you :)?'></textarea>
+              <button type="submit">Send</button>
+          </div>
+        </div>
+        <div className="Footer">
+          <p>interiors.cc - 2021</p>
+          <p>All rights reserved</p>
+        </div>
       </section>
     </>
   );
