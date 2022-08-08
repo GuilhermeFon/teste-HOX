@@ -1,15 +1,15 @@
 import React from "react";
-import Arrow from './Pagination'
+import Arrow from './Pagination';
 
 import { Pagination, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import Carouselone from '../images/Carousel01.png'
-import Carouseltwo from '../images/Carousel02.png'
-import Carouselthree from '../images/Carousel03.png'
+import Carouselone from '../images/Carousel01.png';
+import Carouseltwo from '../images/Carousel02.png';
+import Carouselthree from '../images/Carousel03.png';
 
 
 
@@ -33,7 +33,7 @@ export default () => {
             <h2>HOW TO ORGANIZE YOUR KITCHEN.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-          <img src={images[0]} />
+          <img src={images[0]} alt='organize kitchen'/>
         </div>
       </SwiperSlide>
       <SwiperSlide className="SwiperSlide" id="Slide02">
@@ -42,7 +42,7 @@ export default () => {
             <h2>TOP 10 INTERIORS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-          <img src={images[1]} />
+          <img src={images[1]} alt='interior grey' />
         </div>
       </SwiperSlide>
       <SwiperSlide className="SwiperSlide" id="Slide03">
@@ -52,7 +52,7 @@ export default () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <img src={images[2]} />
+          <img src={images[2]} alt='walls grey'/>
         </div>
       </SwiperSlide>
       <Arrow />

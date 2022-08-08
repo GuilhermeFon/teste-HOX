@@ -516,7 +516,7 @@
 
 .Container_Form ::-webkit-input-placeholder {
   color: #fff;
-
+  padding: 15px;
 }
 
 #name {
@@ -627,7 +627,6 @@
   display: flex;
   justify-content: flex-end;
 }
-
 
 .Arrowtwo {
   color: black;

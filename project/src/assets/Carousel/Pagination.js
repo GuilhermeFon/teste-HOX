@@ -13,10 +13,10 @@ export default () => {
     <>
       <div className="Container_btn">
         <button onClick={() => swiper.slidePrev()}>
-          <img src={Prev}></img>
+          <img src={Prev} alt='previous'></img>
         </button>
         <button onClick={() => swiper.slideNext()} className="Carousel_btn">
-          <img src={Next}></img>
+          <img src={Next} alt='next'></img>
         </button>
       </div>
     </>
