@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from './Arrow_pag'
+import Arrow from './Pagination'
 
 import { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -7,10 +7,9 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import Carouselone from './images/Carousel01.png'
-import Carouseltwo from './images/Carousel02.png'
-import Carouselthree from './images/Carousel03.png'
-import Arrowpng from './images/Arrow.png'
+import Carouselone from '../images/Carousel01.png'
+import Carouseltwo from '../images/Carousel02.png'
+import Carouselthree from '../images/Carousel03.png'
 
 
 
